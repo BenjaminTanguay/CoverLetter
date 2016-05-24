@@ -14,7 +14,7 @@ import org.apache.commons.lang3.text.WordUtils;
 public class Data {
 	
 	private final String log = "C:\\Users\\Benjamin\\Dropbox\\Concordia\\Coop\\Applications\\Log\\log.txt";
-	private final String path = "C:\\Users\\Benjamin\\Dropbox\\Concordia\\Coop\\Applications\\";
+	private final String path = "C:\\Users\\Benjamin\\Dropbox\\Concordia\\Coop\\Applications\\Answered";
 			
 	private final String companyRegex = "(?<=Organization:\\s{1,100})([A-Za-z, -éèûçêâàùÉÈÊÂÇÛÙïÏëËüÜôÔöÖ]+)";
 	private final String jobTitleRegex = "(?<=\\(JOB ID: [0-9]{5}\\)\\s{1,100})([A-Za-zéèûçêâàùÉÈÊÂÇÛÙïÏëËüÜôÔöÖ, -]+)";
